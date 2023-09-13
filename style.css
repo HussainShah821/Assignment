@@ -1,0 +1,36 @@
+.navbar {
+    background-color: #EDA176;
+    font-size: 10px;
+
+}
+
+body{
+    background-color: #f0c4aa; 
+}
+.grid-container {
+    
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* Two equal columns */
+    gap: 20px;
+    /* Gap between grid items */
+    align-items: center;
+    /* Align items vertically in the center */
+}
+
+
+  /* CSS for the image container */
+  .image-container {
+    background-image: url('./image 4.png');
+    background-size: 70%; /* Adjust the size percentage as needed */
+    background-repeat: no-repeat; /* Adjust as needed */
+    background-position: center; /* Adjust as needed */
+    padding: 20px; /* Add padding for spacing around the text */
+    text-align: center;
+}
+/* CSS for the text overlay */
+.image-text {
+  
+  padding: 20px; /* Add padding for spacing around the text */
+}
